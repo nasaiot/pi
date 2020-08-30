@@ -1,0 +1,20 @@
+{
+  "name": "pinapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo $(which node) index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firmata": "^2.2.0",
+    "johnny-five": "^2.0.0",
+    "raspi-io": "^11.0.0",
+    "serialport": "^9.0.1"
+  }
+}
